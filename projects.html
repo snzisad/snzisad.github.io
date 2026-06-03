@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Sharif Noor Zisad</title>
+  <meta name="description" content="Selected research and software projects by Sharif Noor Zisad." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="index.html#hero">
+        <span class="brand-icon"><i class="fa-solid fa-flask-vial" aria-hidden="true"></i></span>
+        Sharif Noor Zisad
+      </a>
+      <nav class="nav-links" id="nav-links" aria-label="Primary">
+          <a href="index.html#hero">Home</a>
+          <a href="index.html#about">About</a>
+          <a href="index.html#education">Education</a>
+          <a href="index.html#experience">Experience</a>
+          <a href="index.html#news">News</a>
+          <a class="active" href="projects.html">Projects</a>
+          <a href="teaching.html">Teaching</a>
+          <a href="publications.html">Publications</a>
+          <a href="awards.html">Awards</a>
+          <a href="skills.html">Skills</a>
+          <a href="index.html#contact">Contact</a>
+          <a class="nav-cv-mobile btn btn-p" href="Sharif_CV-2.pdf" download="Sharif_Noor_Zisad_CV.pdf">
+            <i class="fa-solid fa-download"></i> Download CV </a>
+        </nav>
+        <div style="display:flex;align-items:center;gap:.75rem">
+          <a class="nav-cv" href="Sharif_CV-2.pdf" download="Sharif_Noor_Zisad_CV.pdf">
+            <i class="fa-solid fa-download"></i> Download CV </a>
+          <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>          
+    </div>
+  </header>
+  <main id="content">
+<section id="projects">
+<div class="wrap">
+<div class="section-head">
+<span class="eyebrow"><i class="fa-solid fa-layer-group"></i> Portfolio</span>
+<h2>Projects</h2>
+<p>Selected research and software systems — academic and applied.</p>
+</div>
+<div class="projects-grid">
+<article class="project-card">
+<div class="project-img">
+<!-- Replace with: <img src="assets/project-crrt.jpg" alt="CRRT Pipeline" width="400" height="225" loading="lazy"> -->
+<i aria-hidden="true" class="fa-solid fa-database"></i>
+</div>
+<div class="project-body">
+<div class="project-tag"><i aria-hidden="true" class="fa-solid fa-flask-vial"></i> Clinical Data Engineering</div>
+<div class="project-title">CRRT Machine Log Decryption Pipeline</div>
+<p class="project-desc">Automated system to decrypt and process 22,000+ proprietary LOX binary log files from CRRT machines into structured time-series CSV data. Includes a patient record matching module linking 1,800 treatment sessions to EHR records via weighted temporal overlap algorithms.</p>
+</div>
+</article>
+<article class="project-card">
+<div class="project-img">
+<i aria-hidden="true" class="fa-solid fa-shield-halved"></i>
+</div>
+<div class="project-body">
+<div class="project-tag"><i aria-hidden="true" class="fa-solid fa-robot"></i> AI Security</div>
+<div class="project-title">LabOrchestrator</div>
+<p class="project-desc">An end-to-end AI security framework for medical research environments. Provides orchestrated access control, threat detection, and compliance enforcement across laboratory infrastructure using large language model–driven agents.</p>
+</div>
+</article>
+<article class="project-card">
+<div class="project-img">
+<i aria-hidden="true" class="fa-solid fa-lock"></i>
+</div>
+<div class="project-body">
+<div class="project-tag"><i aria-hidden="true" class="fa-solid fa-user-shield"></i> Privacy Compliance</div>
+<div class="project-title">ComplianceGPT</div>
+<p class="project-desc">A context-aware LLM agent for automated medical data privacy compliance. Dynamically interprets regulatory context (HIPAA, IRB policies) and enforces appropriate access restrictions without manual intervention, targeting complex multi-stakeholder research environments.</p>
+</div>
+</article>
+<article class="project-card">
+<div class="project-img">
+<i aria-hidden="true" class="fa-solid fa-key"></i>
+</div>
+<div class="project-body">
+<div class="project-tag"><i aria-hidden="true" class="fa-solid fa-network-wired"></i> Access Control</div>
+<div class="project-title">LLMAC &amp; IPBAC</div>
+<p class="project-desc">Two complementary access control frameworks: LLMAC leverages large language models for globally explainable policy enforcement, while IPBAC uses interaction provenance tracing to build privacy-aware, audit-ready access decisions across distributed systems.</p>
+</div>
+</article>
+<article class="project-card">
+<div class="project-img">
+<i aria-hidden="true" class="fa-solid fa-drone"></i>
+</div>
+<div class="project-body">
+<div class="project-tag"><i aria-hidden="true" class="fa-solid fa-satellite-dish"></i> Public Safety</div>
+<div class="project-title">ThreatGPT — Drone P2P Safety System</div>
+<p class="project-desc">Agentic AI framework for threat modeling to enhance public safety. Extended to trustworthy peer-to-peer firmware update protocols for autonomous drones and aircraft. Awarded Best Paper at IEEE World Forum on Public Safety Technology 2025.</p>
+</div>
+</article>
+<article class="project-card">
+<div class="project-img">
+<i aria-hidden="true" class="fa-solid fa-wall-brick"></i>
+</div>
+<div class="project-body">
+<div class="project-tag"><i aria-hidden="true" class="fa-solid fa-lightbulb"></i> Patent</div>
+<div class="project-title">SmartWall — Intelligent Building Infrastructure</div>
+<p class="project-desc">Provisional patent filed (UAB Intellectual Property Disclosure, 2025). SmartWall is a sensory and computation-capable building infrastructure system using sustainable, low-cost smart materials to embed IoT and computing capabilities directly into architectural surfaces.</p>
+</div>
+</article>
+</div>
+</div>
+</section>
+  </main>
+  <footer>
+    <div class="wrap footer-row">
+      <span>© 2026 Sharif Noor Zisad · Birmingham, Alabama</span>
+      <div class="footer-links">
+        <a href="index.html#hero">Top</a>
+        <a href="mailto:szisad@uab.edu">Email</a>
+        <a href="Sharif_CV-2.pdf" download>CV</a>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
