@@ -44,10 +44,3 @@ links.forEach(l => l.addEventListener('click', () => {
   ham.setAttribute('aria-expanded', false);
   ham.querySelector('i').className = 'fa-solid fa-bars';
 }));
-
-
-fetch('layout/header.html')
-  .then(response => response.text())
-  .then(data => {
-    document.getElementById('header-container').innerHTML = data;
-  });
