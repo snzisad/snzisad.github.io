@@ -1,328 +1,392 @@
----
-layout: default
+--- 
+layout: default 
 ---
 
 <!DOCTYPE html>
-<html lang="en">
-
-{% include header.html %} 
-
-<body>
-  <main id="content">
-<section id="hero">
-<div class="wrap hero-grid">
-<div>
-<div class="hero-eyebrow">
-<span class="eyebrow"><i class="fa-solid fa-microchip"></i> PhD Candidate (ABD) · Computer Science · UAB</span>
-</div>
-<h1>Sharif Noor Zisad</h1>
-<p class="hero-sub">
-            AI security researcher specializing in cybersecurity for healthcare systems, medical IoT, privacy-aware access control,
-            and clinical data engineering. UAB Blazer Fellow and IEEE Best Paper Award winner.
-          </p>
-<div class="btn-row">
-<a class="btn btn-p" href="publications.html"><i aria-hidden="true" class="fa-solid fa-book-open"></i> Publications</a>
-<a class="btn btn-s" href="#contact"><i aria-hidden="true" class="fa-regular fa-envelope"></i> Contact</a>
-</div>
-<div class="hero-social">
-<a class="social-btn" href="https://www.linkedin.com/in/szisad" rel="noopener noreferrer" target="_blank">
-<i aria-hidden="true" class="fa-brands fa-linkedin"></i> LinkedIn
-            </a>
-<a class="social-btn" href="https://scholar.google.com/citations?user=YOUR_ID" rel="noopener noreferrer" target="_blank">
-<i aria-hidden="true" class="fa-brands fa-google"></i> Google Scholar
-            </a>
-<a class="social-btn" href="https://github.com/szisad" rel="noopener noreferrer" target="_blank">
-<i aria-hidden="true" class="fa-brands fa-github"></i> GitHub
-            </a>
-</div>
-</div>
-<div aria-label="Photo of Sharif Noor Zisad" class="photo-card">
-<!-- Replace the block below with: <img src="your-photo.jpg" alt="Sharif Noor Zisad" width="320" height="400" loading="lazy"> -->
- <img src="/assets/images/me.jpg" alt="Sharif Noor Zisad" width="320" height="400" loading="lazy">
-<!-- <div class="photo-placeholder">
-<i aria-hidden="true" class="fa-regular fa-user"></i>
-<span>Add your photo here</span>
-</div> -->
-</div>
-</div>
-</section>
-<section id="about">
-<div class="wrap">
-<div class="section-head">
-<span class="eyebrow"><i class="fa-solid fa-person"></i> Profile</span>
-<h2>About</h2>
-</div>
-<div class="about-grid">
-<div class="about-text">
-<p>
-              Sharif Noor Zisad is a PhD candidate in Computer Science at the University of Alabama at Birmingham, where he holds the UAB Blazer Fellowship.
-              His research sits at the crossroads of artificial intelligence, cybersecurity, and healthcare data systems — developing frameworks
-              that make medical environments safer, more private, and more trustworthy.
-            </p>
-<p>
-              Before UAB, Sharif completed a competitive European Union–funded Erasmus Mundus Joint Master's in Green Networking and Cloud Computing,
-              studying across France, the United Kingdom, and Sweden. He holds a Bachelor's degree in Computer Science and Engineering from the University of Chittagong.
-            </p>
-<p>
-              Alongside academic research, Sharif has hands-on experience building production software: automated clinical data pipelines,
-              web platforms, analytics dashboards, and AI-powered security tools. He has also served as a guest lecturer and teaching assistant at UAB,
-              mentoring students in networking, cloud computing, and systems design.
-            </p>
-</div>
-<div>
-<h3 style="font-size:var(--text-sm);font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--text-muted);margin-bottom:.75rem;display:flex;align-items:center;gap:.5rem;"><i aria-hidden="true" class="fa-solid fa-lightbulb" style="color:var(--primary);"></i> Research Interests</h3>
-<div aria-label="Research interests" class="interests-wrap">
-<div class="interest-item">
-<span class="interest-icon"><i aria-hidden="true" class="fa-solid fa-shield-halved"></i></span>
-<div>
-<strong>AI-Driven Cybersecurity</strong>
-<p>Security frameworks for healthcare infrastructure using LLMs, agentic AI, and threat modeling.</p>
-</div>
-</div>
-<div class="interest-item">
-<span class="interest-icon"><i aria-hidden="true" class="fa-solid fa-heart-pulse"></i></span>
-<div>
-<strong>Healthcare IoT &amp; Medical Data</strong>
-<p>Security and privacy of medical devices, clinical data pipelines, and EHR systems.</p>
-</div>
-</div>
-<div class="interest-item">
-<span class="interest-icon"><i aria-hidden="true" class="fa-solid fa-lock"></i></span>
-<div>
-<strong>Privacy-Aware Access Control</strong>
-<p>Provenance-based and LLM-explainable access control for sensitive multi-stakeholder environments.</p>
-</div>
-</div>
-<div class="interest-item">
-<span class="interest-icon"><i aria-hidden="true" class="fa-solid fa-microchip"></i></span>
-<div>
-<strong>Edge Computing &amp; IoT Security</strong>
-<p>Lightweight intrusion detection systems and secure deployment on resource-constrained devices.</p>
-</div>
-</div>
-<!-- <div class="interest-item">
-<span class="interest-icon"><i aria-hidden="true" class="fa-solid fa-chart-line"></i></span>
-<div>
-<strong>Time-Series &amp; ML Modeling</strong>
-<p>Transformer architectures, SEIR-hybrid forecasting, and feature engineering for clinical signals.</p>
-</div>
-</div> -->
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="education">
-<div class="wrap">
-<div class="section-head">
-<span class="eyebrow"><i class="fa-solid fa-graduation-cap"></i> Academic Path</span>
-<h2>Education</h2>
-<p>A timeline of degree programs, institutions, and scholarly awards.</p>
-</div>
-<div class="edu-timeline" role="list">
-<div class="edu-item" role="listitem">
-<div aria-hidden="true" class="edu-dot"></div>
-<div class="edu-year">2023 – Present</div>
-<div class="edu-title">PhD Candidate in Computer Science (ABD)</div>
-<div class="edu-place"><i aria-hidden="true" class="fa-solid fa-location-dot" style="color:var(--primary);margin-right:.4rem;font-size:.8rem;"></i>University of Alabama at Birmingham · Birmingham, Alabama</div>
-<div class="edu-badge"><i aria-hidden="true" class="fa-solid fa-star"></i> UAB Blazer Fellow</div>
-<div class="edu-sub">
-<p><i aria-hidden="true" class="fa-solid fa-flask-vial"></i>Graduate Research Assistant, Division of Nephrology, School of Medicine</p>
-<p><i aria-hidden="true" class="fa-solid fa-shield-halved"></i>Research focus: AI-driven cybersecurity, healthcare IoT security, medical data privacy</p>
-</div>
-</div>
-<div class="edu-item" role="listitem">
-<div aria-hidden="true" class="edu-dot"></div>
-<div class="edu-year">2021 – 2023</div>
-<div class="edu-title">Joint Master's in Green Networking and Cloud Computing</div>
-<div class="edu-place"><i aria-hidden="true" class="fa-solid fa-location-dot" style="color:var(--primary);margin-right:.4rem;font-size:.8rem;"></i>France · United Kingdom · Sweden</div>
-<div class="edu-badge"><i aria-hidden="true" class="fa-solid fa-earth-europe"></i> Erasmus Mundus Scholarship — EU funded</div>
-<div class="edu-sub">
-<p><i aria-hidden="true" class="fa-solid fa-circle-dot"></i>Semester 1: University of Lorraine, Nancy, France</p>
-<p><i aria-hidden="true" class="fa-solid fa-circle-dot"></i>Semester 2: Leeds Beckett University, Leeds, UK</p>
-<p><i aria-hidden="true" class="fa-solid fa-circle-dot"></i>Semesters 3 &amp; 4: Luleå University of Technology, Sweden</p>
-</div>
-</div>
-<div class="edu-item" role="listitem">
-<div aria-hidden="true" class="edu-dot"></div>
-<div class="edu-year">2016 – 2020</div>
-<div class="edu-title">B.Sc. in Computer Science and Engineering</div>
-<div class="edu-place"><i aria-hidden="true" class="fa-solid fa-location-dot" style="color:var(--primary);margin-right:.4rem;font-size:.8rem;"></i>University of Chittagong · Chattogram, Bangladesh</div>
-<div class="edu-badge"><i aria-hidden="true" class="fa-solid fa-pen-nib"></i> Springer Link Student First Author Scholarship 2020, 2021</div>
-</div>
-</div>
-</div>
-</section>
-<section id="experience">
-<div class="wrap">
-<div class="section-head">
-<span class="eyebrow"><i class="fa-solid fa-briefcase"></i> Work</span>
-<h2>Experience</h2>
-<p>Research, teaching, and software engineering roles.</p>
-</div>
-<div class="exp-list">
-<article class="exp-card">
-<div class="exp-head">
-<div class="exp-head-left">
-<div class="exp-title">Graduate Research Assistant</div>
-<div class="exp-org"><i aria-hidden="true" class="fa-solid fa-hospital"></i> Division of Nephrology, School of Medicine, UAB</div>
-</div>
-<div class="exp-date">Aug 2025 – Present</div>
-</div>
-<ul class="exp-ul">
-<li>Developed an automated pipeline to decrypt and process 22,000+ CRRT machine log files — converting proprietary LOX binary format into structured CSV time-series data.</li>
-<li>Designed a patient record matching system and successfully matched 1,800 CRRT treatment sessions to EHR data using weighted matching algorithms and temporal overlap analysis.</li>
-</ul>
-</article>
-<article class="exp-card">
-<div class="exp-head">
-<div class="exp-head-left">
-<div class="exp-title">Graduate Teaching Assistant</div>
-<div class="exp-org"><i aria-hidden="true" class="fa-solid fa-chalkboard-user"></i> Department of Computer Science, UAB</div>
-</div>
-<div class="exp-date">Jan 2025 – Aug 2025</div>
-</div>
-<ul class="exp-ul">
-<li>Courses: CS 334/534 Computer Networking (Spring 2025) and CS 403/633/733 Cloud Computing (Summer 2025).</li>
-<li>Responsibilities included live lab sessions, video tutorials, assignment creation, grading, and mentoring.</li>
-</ul>
-</article>
-<article class="exp-card">
-<div class="exp-head">
-<div class="exp-head-left">
-<div class="exp-title">Guest Lecturer</div>
-<div class="exp-org"><i aria-hidden="true" class="fa-solid fa-person-chalkboard"></i> Department of Computer Science, UAB</div>
-</div>
-<div class="exp-date">Jan 2025 – Feb 2025</div>
-</div>
-<ul class="exp-ul">
-<li>Delivered lectures on Network Topology and Traffic Management, Communication Protocols and Switching, VLAN, and SDN for CS 334/534 Computer Networking.</li>
-</ul>
-</article>
-<article class="exp-card">
-<div class="exp-head">
-<div class="exp-head-left">
-<div class="exp-title">Web Application Developer</div>
-<div class="exp-org"><i aria-hidden="true" class="fa-solid fa-code"></i> Mid Day Dreams · Chattogram, Bangladesh</div>
-</div>
-<div class="exp-date">Feb 2021 – Aug 2021</div>
-</div>
-<ul class="exp-ul">
-<li>Designed and developed on-demand car wash and maintenance service web applications using Agile and Scrum methodologies.</li>
-<li>Revamped existing e-commerce platforms with UX/UI optimizations and performance enhancements, leading to a 30% increase in sales.</li>
-</ul>
-</article>
-<article class="exp-card">
-<div class="exp-head">
-<div class="exp-head-left">
-<div class="exp-title">Software Engineer</div>
-<div class="exp-org"><i aria-hidden="true" class="fa-solid fa-gears"></i> Changetech BD · Chattogram, Bangladesh</div>
-</div>
-<div class="exp-date">Feb 2020 – Jan 2021</div>
-</div>
-<ul class="exp-ul">
-<li>Developed data-driven dashboards for real-time performance monitoring and KPI analysis.</li>
-<li>Integrated E-KYC and mobile top-up analytics, boosting user engagement by 25%.</li>
-</ul>
-</article>
-</div>
-</div>
-</section>
-<section id="news">
-<div class="wrap">
-<div class="section-head">
-<span class="eyebrow"><i class="fa-solid fa-newspaper"></i> Updates</span>
-<h2>News</h2>
-<p>Recent milestones, publications, awards, and academic activities.</p>
-</div>
-<div class="news-list">
-<div class="news-card">
-<div class="news-date-col"><span class="news-month">Jun</span><div class="news-dot"></div><span class="news-year">2026</span></div>
-<div class="news-body">
-<span class="news-tag"><i class="fa-solid fa-plane"></i> Award</span>
-<h3>UAB Professional Development and Travel Award 2026</h3>
-<p>Received the UAB Professional Development and Travel Award to support conference attendance and research dissemination.</p>
-</div>
-</div>
-<div class="news-card">
-<div class="news-date-col"><span class="news-month">May</span><div class="news-dot"></div><span class="news-year">2026</span></div>
-<div class="news-body">
-<span class="news-tag"><i class="fa-solid fa-file-lines"></i> Publication</span>
-<h3>LabOrchestrator accepted at IEEE COMPSAC 2026</h3>
-<p>Paper on AI framework for end-to-end security in medical research environments accepted at IEEE COMPSAC 2026.</p>
-</div>
-</div>
-<div class="news-card">
-<div class="news-date-col"><span class="news-month">Apr</span><div class="news-dot"></div><span class="news-year">2026</span></div>
-<div class="news-body">
-<span class="news-tag"><i class="fa-solid fa-file-lines"></i> Publication</span>
-<h3>ComplianceGPT and LLMAC / IPBAC accepted at IEEE ICC &amp; CCNC 2026</h3>
-<p>Three papers on LLM-driven compliance, access control, and provenance-based security accepted at IEEE ICC and CCNC 2026.</p>
-</div>
-</div>
-<div class="news-card">
-<div class="news-date-col"><span class="news-month">Oct</span><div class="news-dot"></div><span class="news-year">2025</span></div>
-<div class="news-body">
-<span class="news-tag"><i class="fa-solid fa-trophy"></i> Best Paper</span>
-<h3>Best Paper Award at IEEE WF-PST 2025</h3>
-<p>Awarded Best Paper for "Trustworthy and Efficient P2P Updates in Drones and Autonomous Aircrafts to ensure Public Safety" at the IEEE World Forum on Public Safety Technology.</p>
-</div>
-</div>
-<div class="news-card">
-<div class="news-date-col"><span class="news-month">Aug</span><div class="news-dot"></div><span class="news-year">2025</span></div>
-<div class="news-body">
-<span class="news-tag"><i class="fa-solid fa-flask-vial"></i> Research</span>
-<h3>Joined Division of Nephrology as Graduate Research Assistant</h3>
-<p>Started new research role at the UAB School of Medicine, building automated clinical data pipelines for CRRT machine log analysis.</p>
-</div>
-</div>
-<div class="news-card">
-<div class="news-date-col"><span class="news-month">Jan</span><div class="news-dot"></div><span class="news-year">2025</span></div>
-<div class="news-body">
-<span class="news-tag"><i class="fa-solid fa-chalkboard-user"></i> Teaching</span>
-<h3>Graduate Teaching Assistant — CS 334/534 &amp; CS 403/633/733</h3>
-<p>Appointed as Graduate Teaching Assistant for Computer Networking and Cloud Computing at UAB.</p>
-</div>
-</div>
-<div class="news-card">
-<div class="news-date-col"><span class="news-month">2025</span><div class="news-dot"></div><span class="news-year"></span></div>
-<div class="news-body">
-<span class="news-tag"><i class="fa-solid fa-lightbulb"></i> Patent</span>
-<h3>Provisional Patent Filed — SmartWall</h3>
-<p>UAB Intellectual Property Disclosure filed for SmartWall: an infrastructure for sensory and computation-capable buildings using sustainable and low-cost smart materials.</p>
-</div>
-</div>
-<div class="news-card">
-<div class="news-date-col"><span class="news-month">Aug</span><div class="news-dot"></div><span class="news-year">2023</span></div>
-<div class="news-body">
-<span class="news-tag"><i class="fa-solid fa-award"></i> Fellowship</span>
-<h3>Started PhD at UAB as Blazer Fellow</h3>
-<p>Joined the UAB PhD program in Computer Science with the UAB Graduate Blazer Fellowship, focusing on AI-driven cybersecurity and healthcare data systems.</p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="contact">
-<div class="wrap">
-<div class="section-head">
-<span class="eyebrow"><i class="fa-solid fa-paper-plane"></i> Get in touch</span>
-<h2>Contact</h2>
-</div>
-<div class="contact-card">
-<div>
-<p style="font-size:var(--text-lg);font-weight:600;margin-bottom:var(--sp3);">Open to academic collaboration, research partnerships, and industry opportunities in AI security and healthcare systems.</p>
-<p style="color:var(--muted);">Based in Birmingham, Alabama. Available for remote collaboration globally.</p>
-</div>
-<div class="contact-links">
-<a class="contact-link email" href="mailto:szisad@uab.edu"><i class="fa-regular fa-envelope"></i> szisad@uab.edu</a>
-<a class="contact-link" href="https://www.linkedin.com/in/snzisad/" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-linkedin"></i> Connect in LinkedIn</a>
-</div>
-</div>
-</div>
-</section>
-  </main>
-
-{% include footer.html %} 
-</body>
+<html lang="en"> 
+  {% include header.html %} 
+  
+  <body>
+    <main id="content">
+      <section id="hero">
+        <div class="wrap hero-grid">
+          <div>
+            <div class="hero-eyebrow">
+              <span class="eyebrow">
+                <i class="fa-solid fa-microchip"></i> PhD Candidate (ABD) · Computer Science · UAB </span>
+            </div>
+            <h1>Sharif Noor Zisad</h1>
+            <p class="hero-sub"> AI security researcher specializing in cybersecurity for healthcare systems, medical IoT, privacy-aware access control, and clinical data engineering. UAB Blazer Fellow and IEEE Best Paper Award winner. </p>
+            <div class="btn-row">
+              <a class="btn btn-p" href="publications.html">
+                <i aria-hidden="true" class="fa-solid fa-book-open"></i> Publications </a>
+              <a class="btn btn-s" href="#contact">
+                <i aria-hidden="true" class="fa-regular fa-envelope"></i> Contact </a>
+            </div>
+            <div class="hero-social">
+              <a class="social-btn" href="https://www.linkedin.com/in/szisad" rel="noopener noreferrer" target="_blank">
+                <i aria-hidden="true" class="fa-brands fa-linkedin"></i> LinkedIn </a>
+              <a class="social-btn" href="https://scholar.google.com/citations?user=YOUR_ID" rel="noopener noreferrer" target="_blank">
+                <i aria-hidden="true" class="fa-brands fa-google"></i> Google Scholar </a>
+              <a class="social-btn" href="https://github.com/szisad" rel="noopener noreferrer" target="_blank">
+                <i aria-hidden="true" class="fa-brands fa-github"></i> GitHub </a>
+            </div>
+          </div>
+          <div aria-label="Photo of Sharif Noor Zisad" class="photo-card">
+            <!-- Replace the block below with: <img src="your-photo.jpg" alt="Sharif Noor Zisad" width="320" height="400" loading="lazy"> -->
+            <img src="/assets/images/me.jpg" alt="Sharif Noor Zisad" width="320" height="400" loading="lazy">
+            <!-- <div class="photo-placeholder"><i aria-hidden="true" class="fa-regular fa-user"></i><span>Add your photo here</span></div> -->
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <div class="wrap">
+          <div class="section-head">
+            <span class="eyebrow">
+              <i class="fa-solid fa-person"></i> Profile </span>
+            <h2>About</h2>
+          </div>
+          <div class="about-grid">
+            <div class="about-text">
+              <p> Sharif Noor Zisad is a PhD candidate in Computer Science at the University of Alabama at Birmingham, where he holds the UAB Blazer Fellowship. His research sits at the crossroads of artificial intelligence, cybersecurity, and healthcare data systems — developing frameworks that make medical environments safer, more private, and more trustworthy. </p>
+              <p> Before UAB, Sharif completed a competitive European Union–funded Erasmus Mundus Joint Master's in Green Networking and Cloud Computing, studying across France, the United Kingdom, and Sweden. He holds a Bachelor's degree in Computer Science and Engineering from the University of Chittagong. </p>
+              <p> Alongside academic research, Sharif has hands-on experience building production software: automated clinical data pipelines, web platforms, analytics dashboards, and AI-powered security tools. He has also served as a guest lecturer and teaching assistant at UAB, mentoring students in networking, cloud computing, and systems design. </p>
+            </div>
+            <div>
+              <h3 style="font-size:var(--text-sm);font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--text-muted);margin-bottom:.75rem;display:flex;align-items:center;gap:.5rem;">
+                <i aria-hidden="true" class="fa-solid fa-lightbulb" style="color:var(--primary);"></i> Research Interests
+              </h3>
+              <div aria-label="Research interests" class="interests-wrap">
+                <div class="interest-item">
+                  <span class="interest-icon">
+                    <i aria-hidden="true" class="fa-solid fa-shield-halved"></i>
+                  </span>
+                  <div>
+                    <strong>AI-Driven Cybersecurity</strong>
+                    <p>Security frameworks for healthcare infrastructure using LLMs, agentic AI, and threat modeling.</p>
+                  </div>
+                </div>
+                <div class="interest-item">
+                  <span class="interest-icon">
+                    <i aria-hidden="true" class="fa-solid fa-heart-pulse"></i>
+                  </span>
+                  <div>
+                    <strong>Healthcare IoT &amp; Medical Data</strong>
+                    <p>Security and privacy of medical devices, clinical data pipelines, and EHR systems.</p>
+                  </div>
+                </div>
+                <div class="interest-item">
+                  <span class="interest-icon">
+                    <i aria-hidden="true" class="fa-solid fa-lock"></i>
+                  </span>
+                  <div>
+                    <strong>Privacy-Aware Access Control</strong>
+                    <p>Provenance-based and LLM-explainable access control for sensitive multi-stakeholder environments.</p>
+                  </div>
+                </div>
+                <div class="interest-item">
+                  <span class="interest-icon">
+                    <i aria-hidden="true" class="fa-solid fa-microchip"></i>
+                  </span>
+                  <div>
+                    <strong>Edge Computing &amp; IoT Security</strong>
+                    <p>Lightweight intrusion detection systems and secure deployment on resource-constrained devices.</p>
+                  </div>
+                </div>
+                <!-- <div class="interest-item"><span class="interest-icon"><i aria-hidden="true" class="fa-solid fa-chart-line"></i></span><div><strong>Time-Series &amp; ML Modeling</strong><p>Transformer architectures, SEIR-hybrid forecasting, and feature engineering for clinical signals.</p></div></div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="education">
+        <div class="wrap">
+          <div class="section-head">
+            <span class="eyebrow">
+              <i class="fa-solid fa-graduation-cap"></i> Academic Path </span>
+            <h2>Education</h2>
+            <p>A timeline of degree programs, institutions, and scholarly awards.</p>
+          </div>
+          <div class="edu-timeline" role="list">
+            <div class="edu-item" role="listitem">
+              <div aria-hidden="true" class="edu-dot"></div>
+              <div class="edu-year">2023 – Present</div>
+              <div class="edu-title">PhD Candidate in Computer Science (ABD)</div>
+              <div class="edu-place">
+                <i aria-hidden="true" class="fa-solid fa-location-dot" style="color:var(--primary);margin-right:.4rem;font-size:.8rem;"></i>University of Alabama at Birmingham · Birmingham, Alabama
+              </div>
+              <div class="edu-badge">
+                <i aria-hidden="true" class="fa-solid fa-star"></i> UAB Blazer Fellow
+              </div>
+              <div class="edu-sub">
+                <p>
+                  <i aria-hidden="true" class="fa-solid fa-flask-vial"></i>Graduate Research Assistant, Division of Nephrology, School of Medicine
+                </p>
+                <p>
+                  <i aria-hidden="true" class="fa-solid fa-shield-halved"></i>Research focus: AI-driven cybersecurity, healthcare IoT security, medical data privacy
+                </p>
+              </div>
+            </div>
+            <div class="edu-item" role="listitem">
+              <div aria-hidden="true" class="edu-dot"></div>
+              <div class="edu-year">2021 – 2023</div>
+              <div class="edu-title">Joint Master's in Green Networking and Cloud Computing</div>
+              <div class="edu-place">
+                <i aria-hidden="true" class="fa-solid fa-location-dot" style="color:var(--primary);margin-right:.4rem;font-size:.8rem;"></i>France · United Kingdom · Sweden
+              </div>
+              <div class="edu-badge">
+                <i aria-hidden="true" class="fa-solid fa-earth-europe"></i> Erasmus Mundus Scholarship — EU funded
+              </div>
+              <div class="edu-sub">
+                <p>
+                  <i aria-hidden="true" class="fa-solid fa-circle-dot"></i>Semester 1: University of Lorraine, Nancy, France
+                </p>
+                <p>
+                  <i aria-hidden="true" class="fa-solid fa-circle-dot"></i>Semester 2: Leeds Beckett University, Leeds, UK
+                </p>
+                <p>
+                  <i aria-hidden="true" class="fa-solid fa-circle-dot"></i>Semesters 3 &amp; 4: Luleå University of Technology, Sweden
+                </p>
+              </div>
+            </div>
+            <div class="edu-item" role="listitem">
+              <div aria-hidden="true" class="edu-dot"></div>
+              <div class="edu-year">2016 – 2020</div>
+              <div class="edu-title">B.Sc. in Computer Science and Engineering</div>
+              <div class="edu-place">
+                <i aria-hidden="true" class="fa-solid fa-location-dot" style="color:var(--primary);margin-right:.4rem;font-size:.8rem;"></i>University of Chittagong · Chattogram, Bangladesh
+              </div>
+              <div class="edu-badge">
+                <i aria-hidden="true" class="fa-solid fa-pen-nib"></i> Springer Link Student First Author Scholarship 2020, 2021
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="experience">
+        <div class="wrap">
+          <div class="section-head">
+            <span class="eyebrow">
+              <i class="fa-solid fa-briefcase"></i> Work </span>
+            <h2>Experience</h2>
+            <p>Research, teaching, and software engineering roles.</p>
+          </div>
+          <div class="exp-list">
+            <article class="exp-card">
+              <div class="exp-head">
+                <div class="exp-head-left">
+                  <div class="exp-title">Graduate Research Assistant</div>
+                  <div class="exp-org">
+                    <i aria-hidden="true" class="fa-solid fa-hospital"></i> Division of Nephrology, School of Medicine, UAB
+                  </div>
+                </div>
+                <div class="exp-date">Aug 2025 – Present</div>
+              </div>
+              <ul class="exp-ul">
+                <li>Developed an automated pipeline to decrypt and process 22,000+ CRRT machine log files — converting proprietary LOX binary format into structured CSV time-series data.</li>
+                <li>Designed a patient record matching system and successfully matched 1,800 CRRT treatment sessions to EHR data using weighted matching algorithms and temporal overlap analysis.</li>
+              </ul>
+            </article>
+            <article class="exp-card">
+              <div class="exp-head">
+                <div class="exp-head-left">
+                  <div class="exp-title">Graduate Teaching Assistant</div>
+                  <div class="exp-org">
+                    <i aria-hidden="true" class="fa-solid fa-chalkboard-user"></i> Department of Computer Science, UAB
+                  </div>
+                </div>
+                <div class="exp-date">Jan 2025 – Aug 2025</div>
+              </div>
+              <ul class="exp-ul">
+                <li>Courses: CS 334/534 Computer Networking (Spring 2025) and CS 403/633/733 Cloud Computing (Summer 2025).</li>
+                <li>Responsibilities included live lab sessions, video tutorials, assignment creation, grading, and mentoring.</li>
+              </ul>
+            </article>
+            <article class="exp-card">
+              <div class="exp-head">
+                <div class="exp-head-left">
+                  <div class="exp-title">Guest Lecturer</div>
+                  <div class="exp-org">
+                    <i aria-hidden="true" class="fa-solid fa-person-chalkboard"></i> Department of Computer Science, UAB
+                  </div>
+                </div>
+                <div class="exp-date">Jan 2025 – Feb 2025</div>
+              </div>
+              <ul class="exp-ul">
+                <li>Delivered lectures on Network Topology and Traffic Management, Communication Protocols and Switching, VLAN, and SDN for CS 334/534 Computer Networking.</li>
+              </ul>
+            </article>
+            <article class="exp-card">
+              <div class="exp-head">
+                <div class="exp-head-left">
+                  <div class="exp-title">Web Application Developer</div>
+                  <div class="exp-org">
+                    <i aria-hidden="true" class="fa-solid fa-code"></i> Mid Day Dreams · Chattogram, Bangladesh
+                  </div>
+                </div>
+                <div class="exp-date">Feb 2021 – Aug 2021</div>
+              </div>
+              <ul class="exp-ul">
+                <li>Designed and developed on-demand car wash and maintenance service web applications using Agile and Scrum methodologies.</li>
+                <li>Revamped existing e-commerce platforms with UX/UI optimizations and performance enhancements, leading to a 30% increase in sales.</li>
+              </ul>
+            </article>
+            <article class="exp-card">
+              <div class="exp-head">
+                <div class="exp-head-left">
+                  <div class="exp-title">Software Engineer</div>
+                  <div class="exp-org">
+                    <i aria-hidden="true" class="fa-solid fa-gears"></i> Changetech BD · Chattogram, Bangladesh
+                  </div>
+                </div>
+                <div class="exp-date">Feb 2020 – Jan 2021</div>
+              </div>
+              <ul class="exp-ul">
+                <li>Developed data-driven dashboards for real-time performance monitoring and KPI analysis.</li>
+                <li>Integrated E-KYC and mobile top-up analytics, boosting user engagement by 25%.</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section id="news">
+        <div class="wrap">
+          <div class="section-head">
+            <span class="eyebrow">
+              <i class="fa-solid fa-newspaper"></i> Updates </span>
+            <h2>News</h2>
+            <p>Recent milestones, publications, awards, and academic activities.</p>
+          </div>
+          <div class="news-list">
+            <div class="news-card">
+              <div class="news-date-col">
+                <span class="news-month">Jun</span>
+                <div class="news-dot"></div>
+                <span class="news-year">2026</span>
+              </div>
+              <div class="news-body">
+                <span class="news-tag">
+                  <i class="fa-solid fa-plane"></i> Award </span>
+                <h3>UAB Professional Development and Travel Award 2026</h3>
+                <p>Received the UAB Professional Development and Travel Award to support conference attendance and research dissemination.</p>
+              </div>
+            </div>
+            <div class="news-card">
+              <div class="news-date-col">
+                <span class="news-month">May</span>
+                <div class="news-dot"></div>
+                <span class="news-year">2026</span>
+              </div>
+              <div class="news-body">
+                <span class="news-tag">
+                  <i class="fa-solid fa-file-lines"></i> Publication </span>
+                <h3>LabOrchestrator accepted at IEEE COMPSAC 2026</h3>
+                <p>Paper on AI framework for end-to-end security in medical research environments accepted at IEEE COMPSAC 2026.</p>
+              </div>
+            </div>
+            <div class="news-card">
+              <div class="news-date-col">
+                <span class="news-month">Apr</span>
+                <div class="news-dot"></div>
+                <span class="news-year">2026</span>
+              </div>
+              <div class="news-body">
+                <span class="news-tag">
+                  <i class="fa-solid fa-file-lines"></i> Publication </span>
+                <h3>ComplianceGPT and LLMAC / IPBAC accepted at IEEE ICC &amp; CCNC 2026</h3>
+                <p>Three papers on LLM-driven compliance, access control, and provenance-based security accepted at IEEE ICC and CCNC 2026.</p>
+              </div>
+            </div>
+            <div class="news-card">
+              <div class="news-date-col">
+                <span class="news-month">Oct</span>
+                <div class="news-dot"></div>
+                <span class="news-year">2025</span>
+              </div>
+              <div class="news-body">
+                <span class="news-tag">
+                  <i class="fa-solid fa-trophy"></i> Best Paper </span>
+                <h3>Best Paper Award at IEEE WF-PST 2025</h3>
+                <p>Awarded Best Paper for "Trustworthy and Efficient P2P Updates in Drones and Autonomous Aircrafts to ensure Public Safety" at the IEEE World Forum on Public Safety Technology.</p>
+              </div>
+            </div>
+            <div class="news-card">
+              <div class="news-date-col">
+                <span class="news-month">Aug</span>
+                <div class="news-dot"></div>
+                <span class="news-year">2025</span>
+              </div>
+              <div class="news-body">
+                <span class="news-tag">
+                  <i class="fa-solid fa-flask-vial"></i> Research </span>
+                <h3>Joined Division of Nephrology as Graduate Research Assistant</h3>
+                <p>Started new research role at the UAB School of Medicine, building automated clinical data pipelines for CRRT machine log analysis.</p>
+              </div>
+            </div>
+            <div class="news-card">
+              <div class="news-date-col">
+                <span class="news-month">Jan</span>
+                <div class="news-dot"></div>
+                <span class="news-year">2025</span>
+              </div>
+              <div class="news-body">
+                <span class="news-tag">
+                  <i class="fa-solid fa-chalkboard-user"></i> Teaching </span>
+                <h3>Graduate Teaching Assistant — CS 334/534 &amp; CS 403/633/733</h3>
+                <p>Appointed as Graduate Teaching Assistant for Computer Networking and Cloud Computing at UAB.</p>
+              </div>
+            </div>
+            <div class="news-card">
+              <div class="news-date-col">
+                <span class="news-month">2025</span>
+                <div class="news-dot"></div>
+                <span class="news-year"></span>
+              </div>
+              <div class="news-body">
+                <span class="news-tag">
+                  <i class="fa-solid fa-lightbulb"></i> Patent </span>
+                <h3>Provisional Patent Filed — SmartWall</h3>
+                <p>UAB Intellectual Property Disclosure filed for SmartWall: an infrastructure for sensory and computation-capable buildings using sustainable and low-cost smart materials.</p>
+              </div>
+            </div>
+            <div class="news-card">
+              <div class="news-date-col">
+                <span class="news-month">Aug</span>
+                <div class="news-dot"></div>
+                <span class="news-year">2023</span>
+              </div>
+              <div class="news-body">
+                <span class="news-tag">
+                  <i class="fa-solid fa-award"></i> Fellowship </span>
+                <h3>Started PhD at UAB as Blazer Fellow</h3>
+                <p>Joined the UAB PhD program in Computer Science with the UAB Graduate Blazer Fellowship, focusing on AI-driven cybersecurity and healthcare data systems.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="wrap">
+          <div class="section-head">
+            <span class="eyebrow">
+              <i class="fa-solid fa-paper-plane"></i> Get in touch </span>
+            <h2>Contact</h2>
+          </div>
+          <div class="contact-card">
+            <div>
+              <p style="font-size:var(--text-lg);font-weight:600;margin-bottom:var(--sp3);">Open to academic collaboration, research partnerships, and industry opportunities in AI security and healthcare systems.</p>
+              <p style="color:var(--muted);">Based in Birmingham, Alabama. Available for remote collaboration globally.</p>
+            </div>
+            <div class="contact-links">
+              <a class="contact-link email" href="mailto:szisad@uab.edu">
+                <i class="fa-regular fa-envelope"></i> szisad@uab.edu </a>
+              <a class="contact-link" href="https://www.linkedin.com/in/snzisad/" rel="noopener noreferrer" target="_blank">
+                <i class="fa-brands fa-linkedin"></i> Connect in LinkedIn </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main> 
+    {% include footer.html %}
+  </body>
 </html>

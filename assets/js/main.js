@@ -1,11 +1,11 @@
-// hamburger
-const ham = document.getElementById('hamburger');
+// nav-toggle
+const toggle = document.getElementById('nav-toggle');
 const nav = document.getElementById('nav-links');
-if (ham && nav) {
-  ham.addEventListener('click', () => {
+if (toggle && nav) {
+  toggle.addEventListener('click', () => {
     const open = nav.classList.toggle('open');
-    ham.setAttribute('aria-expanded', open);
-    ham.querySelector('i').className = open ? 'fa-solid fa-xmark' : 'fa-solid fa-bars';
+    toggle.setAttribute('aria-expanded', open);
+    toggle.querySelector('i').className = open ? 'fa-solid fa-xmark' : 'fa-solid fa-bars';
   });
 }
 
@@ -39,8 +39,8 @@ if (sections.length && 'IntersectionObserver' in window) {
 
 // close nav on link click
 links.forEach(l => l.addEventListener('click', () => {
-  if (!ham || !nav) return;
+  if (!toggle || !nav) return;
   nav.classList.remove('open');
-  ham.setAttribute('aria-expanded', false);
-  ham.querySelector('i').className = 'fa-solid fa-bars';
+  toggle.setAttribute('aria-expanded', false);
+  toggle.querySelector('i').className = 'fa-solid fa-bars';
 }));

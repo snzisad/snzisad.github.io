@@ -1,86 +1,98 @@
----
-layout: default
+--- 
+layout: default 
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
+  {% include header.html %} 
   
-{% include header.html %} 
-<body>
-  
-  <main id="content">
-<section id="teaching">
-<div class="wrap">
-<div class="section-head">
-<span class="eyebrow"><i class="fa-solid fa-chalkboard-user"></i> Academia</span>
-<h2>Teaching</h2>
-<p>Courses taught, guest lectures, and mentoring responsibilities at UAB.</p>
-</div>
-<div class="exp-list">
-<article class="exp-card">
-<div class="exp-head">
-<div>
-<div class="exp-title">Graduate Teaching Assistant</div>
-<div class="exp-org"><i aria-hidden="true" class="fa-solid fa-building-columns"></i> Department of Computer Science, UAB · Birmingham, Alabama</div>
-</div>
-<div class="exp-date">Jan 2025 – Aug 2025</div>
-</div>
-<div style="display:grid;gap:1rem;margin-top:.5rem">
-<div class="teach-course">
-<div class="teach-course-head">
-<span class="teach-badge"><i class="fa-solid fa-network-wired"></i> CS 334 / 534</span>
-<span class="teach-term">Spring 2025</span>
-</div>
-<div class="teach-course-title">Computer Networking</div>
-<ul class="exp-ul" style="margin-top:.5rem">
-<li>Conducted live lab sessions covering network configuration, packet analysis, and troubleshooting.</li>
-<li>Produced video tutorial series for remote lab exercises.</li>
-<li>Designed and graded programming assignments on socket programming and protocol implementation.</li>
-<li>Mentored students in debugging network issues and exam preparation.</li>
-</ul>
-</div>
-<div class="teach-course">
-<div class="teach-course-head">
-<span class="teach-badge"><i class="fa-brands fa-aws"></i> CS 403 / 633 / 733</span>
-<span class="teach-term">Summer 2025</span>
-</div>
-<div class="teach-course-title">Cloud Computing</div>
-<ul class="exp-ul" style="margin-top:.5rem">
-<li>Supported cloud lab sessions on AWS and GCP environments.</li>
-<li>Graded assignments on cloud architecture, containerization, and CI/CD pipelines.</li>
-<li>Provided one-on-one mentoring for graduate students on cloud project work.</li>
-</ul>
-</div>
-</div>
-</article>
-<article class="exp-card">
-<div class="exp-head">
-<div>
-<div class="exp-title">Guest Lecturer</div>
-<div class="exp-org"><i aria-hidden="true" class="fa-solid fa-person-chalkboard"></i> Department of Computer Science, UAB · Birmingham, Alabama</div>
-</div>
-<div class="exp-date">Jan – Feb 2025</div>
-</div>
-<div style="display:grid;gap:1rem;margin-top:.5rem">
-<div class="teach-course">
-<div class="teach-course-head">
-<span class="teach-badge"><i class="fa-solid fa-network-wired"></i> CS 334 / 534</span>
-<span class="teach-term">Spring 2025</span>
-</div>
-<div class="teach-course-title">Computer Networking — Guest Lectures</div>
-<ul class="exp-ul" style="margin-top:.5rem">
-<li><strong>Lecture 1:</strong> Network Topology and Traffic Management — covered bus, star, mesh, and hybrid topologies with traffic engineering principles.</li>
-<li><strong>Lecture 2:</strong> Communication Protocols and Switching — deep dive into TCP/IP stack, MAC-layer switching, and frame forwarding.</li>
-<li><strong>Lecture 3:</strong> VLAN and SDN — virtual LAN segmentation, 802.1Q tagging, and introduction to Software-Defined Networking principles.</li>
-</ul>
-</div>
-</div>
-</article>
-</div>
-</div>
-</section>
-  </main>
-  
-{% include footer.html %} 
-</body>
+  <body>
+    <main id="content">
+      <section id="teaching">
+        <div class="wrap">
+          <div class="section-head">
+            <span class="eyebrow">
+              <i class="fa-solid fa-chalkboard-user"></i> Academia </span>
+            <h2>Teaching</h2>
+            <p>Courses taught, guest lectures, and mentoring responsibilities at UAB.</p>
+          </div>
+          <div class="exp-list">
+            <article class="exp-card">
+              <div class="exp-head">
+                <div>
+                  <div class="exp-title">Graduate Teaching Assistant</div>
+                  <div class="exp-org">
+                    <i aria-hidden="true" class="fa-solid fa-building-columns"></i> Department of Computer Science, UAB · Birmingham, Alabama
+                  </div>
+                </div>
+                <div class="exp-date">Jan 2025 – Aug 2025</div>
+              </div>
+              <div style="display:grid;gap:1rem;margin-top:.5rem">
+                <div class="teach-course">
+                  <div class="teach-course-head">
+                    <span class="teach-badge">
+                      <i class="fa-solid fa-network-wired"></i> CS 334 / 534 </span>
+                    <span class="teach-term">Spring 2025</span>
+                  </div>
+                  <div class="teach-course-title">Computer Networking</div>
+                  <ul class="exp-ul" style="margin-top:.5rem">
+                    <li>Conducted live lab sessions covering network configuration, packet analysis, and troubleshooting.</li>
+                    <li>Produced video tutorial series for remote lab exercises.</li>
+                    <li>Designed and graded programming assignments on socket programming and protocol implementation.</li>
+                    <li>Mentored students in debugging network issues and exam preparation.</li>
+                  </ul>
+                </div>
+                <div class="teach-course">
+                  <div class="teach-course-head">
+                    <span class="teach-badge">
+                      <i class="fa-brands fa-aws"></i> CS 403 / 633 / 733 </span>
+                    <span class="teach-term">Summer 2025</span>
+                  </div>
+                  <div class="teach-course-title">Cloud Computing</div>
+                  <ul class="exp-ul" style="margin-top:.5rem">
+                    <li>Supported cloud lab sessions on AWS and GCP environments.</li>
+                    <li>Graded assignments on cloud architecture, containerization, and CI/CD pipelines.</li>
+                    <li>Provided one-on-one mentoring for graduate students on cloud project work.</li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+            <article class="exp-card">
+              <div class="exp-head">
+                <div>
+                  <div class="exp-title">Guest Lecturer</div>
+                  <div class="exp-org">
+                    <i aria-hidden="true" class="fa-solid fa-person-chalkboard"></i> Department of Computer Science, UAB · Birmingham, Alabama
+                  </div>
+                </div>
+                <div class="exp-date">Jan – Feb 2025</div>
+              </div>
+              <div style="display:grid;gap:1rem;margin-top:.5rem">
+                <div class="teach-course">
+                  <div class="teach-course-head">
+                    <span class="teach-badge">
+                      <i class="fa-solid fa-network-wired"></i> CS 334 / 534 </span>
+                    <span class="teach-term">Spring 2025</span>
+                  </div>
+                  <div class="teach-course-title">Computer Networking — Guest Lectures</div>
+                  <ul class="exp-ul" style="margin-top:.5rem">
+                    <li>
+                      <strong>Lecture 1:</strong> Network Topology and Traffic Management — covered bus, star, mesh, and hybrid topologies with traffic engineering principles.
+                    </li>
+                    <li>
+                      <strong>Lecture 2:</strong> Communication Protocols and Switching — deep dive into TCP/IP stack, MAC-layer switching, and frame forwarding.
+                    </li>
+                    <li>
+                      <strong>Lecture 3:</strong> VLAN and SDN — virtual LAN segmentation, 802.1Q tagging, and introduction to Software-Defined Networking principles.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main> 
+    {% include footer.html %}
+  </body>
 </html>
