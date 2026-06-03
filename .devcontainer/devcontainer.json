@@ -1,0 +1,6 @@
+{
+  "name": "Jekyll Site Container",
+  "image": "://microsoft.com",
+  "forwardPorts": [4000],
+  "postCreateCommand": "bundle install"
+}
