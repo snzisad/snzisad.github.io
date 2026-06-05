@@ -1,0 +1,19 @@
+how to.txt
+
+Open your project folder in VS Code (File > Open Folder)
+
+Press Ctrl+Shift+P to open the Command Palette
+
+Type Dev Containers: Reopen in Container and select it
+
+VS Code will pull the Jekyll image, run 
+
+bash
+bundle install
+
+and reopen the window inside the container
+
+Open the integrated terminal (`Ctrl+\``) and run:
+
+bash
+bundle exec jekyll serve

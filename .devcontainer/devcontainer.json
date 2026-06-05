@@ -1,6 +1,6 @@
 {
   "name": "Jekyll Site Container",
-  "image": "://microsoft.com",
+  "image": "mcr.microsoft.com/devcontainers/jekyll:latest",
   "forwardPorts": [4000],
   "postCreateCommand": "bundle install"
 }

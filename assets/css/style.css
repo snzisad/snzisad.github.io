@@ -1,5 +1,6 @@
 :root {
-  --font-display: "Instrument Serif", Georgia, serif;
+  /* --font-display: "Instrument Serif", Georgia, serif; */
+  --font-family: 'Roboto', sans-serif;
   --font-body: "Inter", system-ui, sans-serif;
   --text-xs: clamp(0.72rem, 0.68rem + 0.2vw, 0.82rem);
   --text-sm: clamp(0.875rem, 0.82rem + 0.28vw, 1rem);
@@ -176,7 +177,7 @@ header {
 
 /* ── SECTIONS ── */
 section {
-  padding: clamp(var(--sp12), 7vw, var(--sp20)) 0;
+  padding: clamp(var(--sp5), 1vw, var(--sp20)) 0;
   border-top: 1px solid var(--divider);
 }
 section:first-of-type {
@@ -185,7 +186,7 @@ section:first-of-type {
 .eyebrow {
   display: inline-flex;
   align-items: center;
-  gap: var(--sp2);
+  gap: var(--sp1);
   font-size: var(--text-xs);
   text-transform: uppercase;
   letter-spacing: 0.16em;
@@ -197,11 +198,11 @@ section:first-of-type {
   font-size: 0.75rem;
 }
 .section-head {
-  margin-bottom: clamp(var(--sp8), 4vw, var(--sp12));
+  margin-bottom: clamp(var(--sp4), 1vw, var(--sp12));
 }
 .section-head h2 {
-  font-family: var(--font-display);
-  font-size: var(--text-2xl);
+  /* font-family: var(--font-display); */
+  font-size: var(--text-xl);
   line-height: 1.05;
   letter-spacing: -0.025em;
   margin-top: var(--sp3);
@@ -213,8 +214,8 @@ section:first-of-type {
 
 /* ── HERO ── */
 #hero {
-  padding-top: clamp(var(--sp12), 10vw, 7rem);
-  padding-bottom: clamp(var(--sp12), 7vw, var(--sp20));
+  padding-top: clamp(var(--sp12), 10vw, 1rem);
+  padding-bottom: clamp(var(--sp12), 2vw, var(--sp20));
   border-top: none;
 }
 .hero-grid {
@@ -287,6 +288,7 @@ section:first-of-type {
   background: var(--surface2);
   aspect-ratio: 4/5;
   position: relative;
+  max-height: 350px;
 }
 .photo-card img {
   width: 100%;
@@ -346,8 +348,8 @@ section:first-of-type {
 .info-list {
   list-style: none;
   display: grid;
-  gap: var(--sp3);
-  margin-top: var(--sp6);
+  gap: var(--sp1);
+  margin-top: var(--sp3);
 }
 .info-list li {
   display: flex;
@@ -366,6 +368,7 @@ section:first-of-type {
 .edu-timeline {
   position: relative;
   padding-left: 2rem;
+  margin-top: 2rem;
 }
 .edu-timeline::before {
   content: "";
@@ -1103,4 +1106,34 @@ footer {
   font-weight: 700;
   font-size: var(--text-sm);
   color: var(--text);
+}
+
+
+/* ── OPEN TO WORK BANNER ── */
+.otw-banner {
+  display: flex;
+  align-items: flex-start;
+  gap: .85rem;
+  margin-top: 0.8rem;
+  padding: .85rem 1.1rem;
+  background: linear-gradient(135deg, #d1fae5, #ecfdf5);
+  border: 1.5px solid #6ee7b7;
+  border-radius: var(--radius-lg);
+  max-width: 420px;
+}
+
+.otw-title {
+  font-weight: 700;
+  font-size: var(--text-sm);
+  color: #065f46;
+  display: flex;
+  align-items: center;
+  gap: .45rem;
+  margin-bottom: .2rem;
+}
+.otw-title i { font-size: .85rem; }
+.otw-desc {
+  font-size: var(--text-xs);
+  color: #047857;
+  line-height: 1.5;
 }
