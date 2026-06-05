@@ -17,3 +17,5 @@ Open the integrated terminal (`Ctrl+\``) and run:
 
 bash
 bundle exec jekyll serve
+
+bundle exec jekyll serve --host 0.0.0.0 --force-polling --livereload
