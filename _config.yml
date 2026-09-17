@@ -1,10 +1,15 @@
-title: Sharif Noor Zisad
 baseurl: ""
-description: Personal Website
-url: "http://localhost:4000"
+url: "https://snzisad.github.io" # Do NOT add a trailing slash (/)
+title: "Sharif Noor Zisad"
+tagline: "AI & Cybersecurity Researcher | PhD Candidate, UAB"
+description: "Portfolio and research by Sharif Noor Zisad, PhD Candidate in Computer Science at UAB, specializing in explainable AI, agentic systems, and healthcare cybersecurity."
 theme: jekyll-theme-primer
-
 
 webrick:
   headers:
     Content-Type: text/html;charset=utf-8
+
+# Enable the plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
