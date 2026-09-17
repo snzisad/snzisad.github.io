@@ -732,6 +732,7 @@ section:first-of-type {
   border: 1px solid var(--border);
   box-shadow: var(--shadow-md);
   display: flex;
+  justify-content: space-between; /* Replaces the ignored grid property */
   grid-template-columns: 1.1fr auto;
   gap: var(--sp8);
   align-items: center;
@@ -830,6 +831,10 @@ footer {
     background: rgba(246, 245, 241, 0.98);
     border-bottom: 1px solid var(--border);
     padding: var(--sp4) var(--sp6);
+  }
+  .contact-card {
+    flex-direction: column;
+    align-items: flex-start; /* Aligns content to the left */
   }
 }
 @media (min-width: 861px) {
